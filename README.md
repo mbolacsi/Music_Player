@@ -1,0 +1,1 @@
+To add songs you will need to update the list of songs in javascript file and add the songs and image files to the songs and image directory
