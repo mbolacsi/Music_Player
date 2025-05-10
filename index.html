@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script defer src="js/script.js"></script>
+    <title>Music Player</title>
+</head>
+<body>
+<div class="background">
+    <img src="imgs_audio/img-1.jpg" id="bg_img" />
+</div>
+
+<div class="container">
+    <div class="song_img">
+        <img src="imgs_audio/img-1.jpg" id="cover" class="active" />
+    </div>
+
+    <h2 id="music_title">Chocolate</h2>
+    <h3 id="music_artist">The 1975</h3>
+
+    <div class="song_progress" id="song_progress">
+        <div class="progress_bar" id="progress"></div>
+        <div class="music_time">
+            <span id="current_time">0:00</span>
+            <span id="duration">0:00</span>
+        </div>
+    </div>
+
+    <div class="controls">
+        <i class="fa fa-backward" title="Previous" id="prev"></i>
+        <i class="fa fa-play play-button" title="Play" id="play"></i>
+        <i class="fa fa-forward" title="Next" id="next"></i>
+    </div>
+</div>
+</body>
+</html>
